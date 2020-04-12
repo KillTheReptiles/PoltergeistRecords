@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+.navegacion{
+    text-align: center;
+    width: 1200px;
+    margin: 30px auto;
+    width:100vw;
+    position: absolute;
+
+}
+.navegacion ul{
+
+    list-style: none;
+
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    font-family: 'OpenSans';
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.menu li a:hover{
+    color: #D3D3D3;
+    transition: all .3s;
+}
+
+@font-face{
+    font-family: OpenSans;
+    src:url(font/OpenSans.ttf);
+}
